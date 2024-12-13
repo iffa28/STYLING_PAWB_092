@@ -1,0 +1,17 @@
+body,
+    html {
+        font-family: Quicksand, sans-serif !important;
+        height: 100%;
+        padding-top: 2rem;
+        background-color: #01204E;
+    }
+
+    .card {
+        padding: 2%;
+        margin: 2%;
+    }
+
+    .btn {
+        width: 50%;
+        margin-bottom: 10px;
+    }

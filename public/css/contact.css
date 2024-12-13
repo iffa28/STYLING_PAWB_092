@@ -1,0 +1,55 @@
+body,
+html {
+    font-family: Quicksand, sans-serif !important;
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar {
+    background-color: #003366;
+    /* Navy untuk navbar */
+}
+
+.navbar .navbar-nav .nav-link:hover {
+    color: #ffffff;
+    /* Putih saat hover */
+}
+
+/* Mengubah warna teks nav-item aktif menjadi putih */
+.navbar-nav .nav-item.active .nav-link {
+    color: #fff !important;
+}
+
+/* Logout link */
+.logout a {
+    display: flex;
+    align-items: center;
+    color: #f5f5dc;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.logout a:hover {
+    color: #ffffff;
+}
+
+.logout a span {
+    margin-right: 2px;
+    /* Jarak antara ikon dan teks */
+    font-size: 15px;
+    /* Sesuaikan ukuran ikon */
+}
+
+
+footer {
+    margin-bottom: 0;
+    background-color: #003366;
+    position: relative;
+    font-size: 1rem;
+}
+
+.container {
+    margin-top: 50px;
+}
